@@ -1,8 +1,16 @@
 # Covid19_DataAnalysis_PostgreSQL
-### This project involves the analysis of COVID-19 data to derive insights into various aspects of the pandemic. The analysis includes SQL queries to explore and understand different dimensions of the data.
+#### This project involves the analysis of COVID-19 data to derive insights into various aspects of the pandemic. The analysis includes SQL queries to explore and understand different dimensions of the data.
 
 ## Objective:
-### The objective of this project is to analyze and interpret COVID-19 data to gain valuable insights into the impact of the pandemic. The data is sourced from the "Covid_Deaths" and "Covid_Vaccinations" tables.
+#### The objective of this project is to analyze and interpret COVID-19 data to gain valuable insights into the impact of the pandemic. The data is sourced from the "Covid_Deaths" and "Covid_Vaccinations" tables.
+
+## Data Source and Process:
+#### The dataset used for this analysis is obtained from https://ourworldindata.org/covid-cases. 
+#### 1. Data was loaded into csv files in "Covid_Deaths" and "Covid_Vaccinations" files.
+#### 2. Database and tables created.
+#### 3. Importing data from CSV to Database.
+#### 4. Data Exploration and Analysis
+#### These tables serve as valuable sources of information, providing detailed statistics related to the COVID-19 pandemic. By employing SQL queries, the project aims to uncover patterns, trends, and correlations within the data, contributing to a deeper understanding of the pandemic's impact on various fronts.
 
 ## Queries and Insights:
 #### 1.Datewise Likelihood of Dying due to COVID-19 in Canada:

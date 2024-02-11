@@ -1,4 +1,4 @@
---Q1.Datewise likelyhood of dying due to covid- TotalCase vs TotalDeaths - in canada
+##--Q1.Datewise likelyhood of dying due to covid- TotalCase vs TotalDeaths - in canada
 
  select date, total_cases, total_deaths
  from "Covid_Deaths"

@@ -13,7 +13,7 @@
 #### These tables serve as valuable sources of information, providing detailed statistics related to the COVID-19 pandemic. By employing SQL queries, the project aims to uncover patterns, trends, and correlations within the data, contributing to a deeper understanding of the pandemic's impact on various fronts.
 
 ## Queries and Insights:
-#### 1.Datewise Likelihood of Dying due to COVID-19 in Canada:
+### 1. Datewise Likelihood of Dying due to COVID-19 in Canada:
 #### Explore the progression of total cases vs total deaths on a datewise basis in Canada.
 
 ### 2. Mortality Rate in Canada:

@@ -15,11 +15,13 @@ select max(total_deaths)/avg(cast(population as integer))* 100
 
 
 --Q3. To verify the info seperately.
+
 select total_deaths, population 
- from "Covid_Deaths"
- where location like '%Canada%';
+from "Covid_Deaths"
+where location like '%Canada%';
 
 --Q4.Country with highest deaths % of population.
+
 select Location, max(total_deaths)/avg(cast(population as bigint))* 100  as percentage
 from "Covid_Deaths"
 group by location

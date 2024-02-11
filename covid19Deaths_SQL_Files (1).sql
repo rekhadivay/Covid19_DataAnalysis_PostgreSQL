@@ -1,10 +1,10 @@
-##--Q1.Datewise likelyhood of dying due to covid- TotalCase vs TotalDeaths - in canada
+--Q1.Datewise likelyhood of dying due to covid- TotalCase vs TotalDeaths in Canada.
 
  select date, total_cases, total_deaths
  from "Covid_Deaths"
  where location like '%Canada%';
 
--- Q2.Total % of  deaths out of entire population in canada
+-- Q2.Total % of  deaths out of entire population in Canada.
  
  SELECT * FROM public."Covid_Deaths"
  where location like '%Canada%';
